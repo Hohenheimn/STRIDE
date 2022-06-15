@@ -1,0 +1,13 @@
+.multipleColumnContainer{flex-direction: row !important; flex-wrap: wrap; justify-content: center !important; align-items: flex-start !important;}
+.eval-team .container .multipleColumn{width: 33.3%;}
+.eval-team .container .multipleColumn .img-container{width: 100% !important;}
+.eval-team .container .multipleColumn .img-container h2{text-align: center;}
+.eval-team .container .multipleColumn .img-container p{text-align: center;}
+header div{ z-index: 99;}
+
+@media(max-width: 640px){
+    .eval-team .container .multipleColumn{width: 50%;}
+}
+@media(max-width: 450px){
+    .eval-team .container .multipleColumn{width: 480%;}
+}
